@@ -1,0 +1,112 @@
+
+    /*Reset do CSS*/
+    *{margin:0; padding:0; box-sizing: border-box;}
+
+
+    /*Cor do Corpo do HTML*/
+    body{background-color:#f9f9f9;}
+
+    /*Header do Site*/    
+    header{background-color:#C0C0C0;
+     height: 100px;
+     display: flex; 
+     justify-content: space-between;
+     }
+
+     #logo{padding-top: 25px;
+        padding-left: 170px;
+        font-family: Verdana; 
+        font-size: 30px;}
+
+    /*configuração da lista desordenada*/ 
+    ul{list-style: none;
+        display: flex;
+        flex-direction: row-reverse;
+        padding-top: 30px;
+        padding-left:190px;}
+
+    /*configuração dos botões da lista desordenada*/
+    .btn{background-color:#C0C0C0;
+        width:200px; 
+        height:30px;
+        font-family: Verdana;
+        font-size:17px;
+        border: none;
+        border-radius: 10px;}
+
+    .btn:hover{background-color: snow;
+        color: black;
+        transition: 0.5s;}
+
+
+
+    /*Formulário da barra de pesquisa*/
+    .pesquisa{
+        width: 200px;
+        height: 40px;
+        padding-top: 30px;
+        padding-right: 350px;
+
+    }
+
+    /*Texto do input da barra de Pesquisa*/
+    #texto{width: 150px;
+        height: 30px;
+        float: left;
+        font-family: Arial;
+        font-size: 20px;
+        border: none 1px;
+        border-radius: 2px;
+        }
+
+    /*Imagem da barra de pesquisa*/
+    .lupa{
+        width: 30px;
+        height:30px;
+        background-color:#2f4550;
+        padding:5px 10px;
+        cursor: pointer;}
+
+    /*Fim do Header do Site*/
+
+    /*Main do Site*/
+    main{background-color: #DCDCDC;
+         height: 950px;
+         width: 100%; 
+         display: flex; 
+         flex-flow: row wrap;
+         justify-content: space-around;}
+
+    /*Confuguração das Flexboxes*/
+    .art{background-color: snow; 
+        width: 350px; 
+        height: 400px;
+        margin: 35px;
+        padding: 35px;
+        border: none;
+        border-radius: 20px;
+        }
+
+    p{padding-top: 15px;}
+
+    /*Confuguração dos botões de acesso*/
+    .btnacess{height:35px;
+        width: 180px;
+        background-color:#D3D3D3 ;
+        border: none;
+        border-radius: 10px;
+        align-self: center;
+        text-align: center;
+        margin-top:35px;
+        margin-left: 40px;
+        }
+
+    .btnacess:hover{background-color: #A9A9A9; transition: 0.5s;}
+    /*Fim do main do site*/
+
+    footer{text-align: center;
+        width: 100%;
+        height: 100px;
+        background-color: #C0C0C0;
+        padding-top: 30px;}
+    
